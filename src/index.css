@@ -6,7 +6,7 @@
 
 body{
   line-height: 1.6rem;
-  background-color: grey;
+  background-color: rgb(165, 165, 165);
 }
 
 nav{
@@ -98,4 +98,18 @@ button[type="submit"]{
 
 button[type="submit"]:hover{
   background-color: #2b9648;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  color: #777;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+
 }
