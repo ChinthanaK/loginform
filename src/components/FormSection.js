@@ -2,12 +2,14 @@ import React from 'react'
 
 const FormSection = () => {
   return (
-    <form>
+   <section className='form'>
+     <form>
         <input type="text" placeholder='Your name' />
         <input type="email" placeholder='Email' />
         <input type="password" placeholder='Password' />
-        <button type='submit'></button>
+        <button type='submit'>Submit</button>
     </form>
+   </section>
   )
 }
 
